@@ -4,28 +4,19 @@
     box-sizing: border-box;
 }
 
-/* ==========================================================
-   BODY
-========================================================== */
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ==========================================================
-   NAVBAR
-========================================================== */
+/* NAVBAR */
 
 .navbar {
     display: flex;
-
     align-items: center;
     justify-content: center;
 
     position: sticky;
-
     top: 0;
-
     z-index: 1000;
 
     cursor: pointer;
@@ -33,9 +24,6 @@ body {
 
 .background {
     background: black;
-
-    background-blend-mode: darken;
-
     background-size: cover;
 }
 
@@ -43,21 +31,17 @@ body {
     width: 70%;
 
     display: flex;
-
     align-items: center;
 }
 
 .logo {
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 }
 
 .logo img {
     width: 120px;
-
     height: 60px;
 
     object-fit: cover;
@@ -99,35 +83,26 @@ body {
     border-radius: 9px;
 }
 
-/* ==========================================================
-   FIRST SECTION
-========================================================== */
+/* SECTION 1 */
 
 .firstsection {
-    background-color: #8ddf8d;
+    background-color: #7bd67b;
 
     min-height: 400px;
 }
 
-/* ==========================================================
-   SECOND SECTION
-========================================================== */
+/* SECTION 2 */
 
 .secondsection {
-    background-color: #7fa9ff;
+    background-color: #719ee8;
 
     min-height: 400px;
 }
-
-/* ==========================================================
-   BOX MAIN
-========================================================== */
 
 .box-main {
     display: flex;
 
     justify-content: center;
-
     align-items: center;
 
     color: black;
@@ -151,11 +126,15 @@ body {
 
 .secondHalf {
     width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
 }
 
-/* ==========================================================
-   TEXT
-========================================================== */
+/* TEXT */
 
 .text-big {
     font-family: Georgia, serif;
@@ -173,9 +152,7 @@ body {
     line-height: 1.7;
 }
 
-/* ==========================================================
-   BUTTON
-========================================================== */
+/* BUTTON */
 
 .btn {
     padding: 8px 20px;
@@ -193,15 +170,19 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: white;
+
+    color: black;
+}
+
 .btn-sm {
     padding: 6px 10px;
 
     vertical-align: middle;
 }
 
-/* ==========================================================
-   GENERAL SECTION
-========================================================== */
+/* GENERAL SECTION */
 
 .section {
     min-height: 400px;
@@ -209,7 +190,6 @@ body {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     max-width: 90%;
@@ -219,7 +199,7 @@ body {
     padding: 40px 0;
 }
 
-/* Doi vi tri image va text */
+/* ROW REVERSE */
 
 .section-Left {
     flex-direction: row-reverse;
@@ -231,9 +211,7 @@ body {
     flex: 1;
 }
 
-/* ==========================================================
-   IMAGE
-========================================================== */
+/* IMAGE */
 
 .thumbnail img {
     width: 250px;
@@ -247,9 +225,7 @@ body {
     margin: auto;
 }
 
-/* ==========================================================
-   FOOTER
-========================================================== */
+/* FOOTER */
 
 .text-footer {
     text-align: center;
@@ -263,9 +239,7 @@ body {
     color: white;
 }
 
-/* ==========================================================
-   RESPONSIVE
-========================================================== */
+/* RESPONSIVE TABLET */
 
 @media (max-width: 900px) {
 
@@ -303,8 +277,9 @@ body {
     .thumbnail {
         margin-bottom: 30px;
     }
-
 }
+
+/* RESPONSIVE MOBILE */
 
 @media (max-width: 600px) {
 
@@ -318,6 +293,13 @@ body {
 
     .box-main {
         max-width: 90%;
+
+        padding: 30px 0;
+    }
+
+    .firstsection,
+    .secondsection {
+        min-height: auto;
     }
 
     .text-big {
@@ -328,4 +310,11 @@ body {
         font-size: 16px;
     }
 
+    #search {
+        width: 65%;
+    }
+
+    .thumbnail img {
+        width: 210px;
+    }
 }

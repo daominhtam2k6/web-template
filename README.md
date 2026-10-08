@@ -1,20 +1,33 @@
-﻿# Web Template Using HTML and CSS
+﻿# Web Template
 
-Bài thực hành xây dựng một web template đơn giản bằng HTML và CSS.
+Bai thuc hanh: Template web page using HTML and CSS.
 
-## Nội dung
+Noi dung thuc hanh:
 
+- HTML structure
 - Navigation bar
 - Search box
-- Web Technology section
-- C Programming section
-- Java section
-- Flexbox
-- `flex-direction: row-reverse`
+- Sections
+- CSS Flexbox
+- display: flex
+- justify-content
+- align-items
+- flex-direction
+- row-reverse
+- Margin
+- Padding
 - Responsive design
+- Media Query
 - Footer
 
-## Files
+Cau truc project:
 
-- `index.html`
-- `style.css`
+web-template
+|
+|-- index.html
+|-- style.css
+|-- README.md
+
+Cach chay:
+
+Mo file index.html bang trinh duyet.
