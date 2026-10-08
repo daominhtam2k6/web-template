@@ -1,0 +1,100 @@
+﻿BAI TAP: PHAN TICH VA XAY DUNG CAU TRUC WEBSITE TEMPLATE
+
+Website tham khao:
+https://www.apple.com/
+
+==================================================
+1. HEADER
+==================================================
+
+Header nam o khu vuc dau trang.
+
+Vai tro:
+- Tao an tuong dau tien cho nguoi dung.
+- Gioi thieu thuong hieu.
+- Co the chua logo, tieu de, thong diep hoac san pham noi bat.
+
+Trong bo cuc tham khao, khu vuc dau trang duoc thiet ke gon gang,
+noi bat noi dung chinh va huong su chu y cua nguoi dung vao san pham.
+
+==================================================
+2. NAVIGATION MENU
+==================================================
+
+Navigation Menu nam o phia tren cua trang.
+
+Vai tro:
+- Giup nguoi dung di chuyen giua cac khu vuc.
+- Cung cap cac lien ket den cac noi dung quan trong.
+- Thuong duoc dat co dinh hoac de nhan thay.
+
+Trong bai thuc hanh, Navigation Menu gom:
+- Trang chu
+- Gioi thieu
+- San pham
+- Lien he
+
+==================================================
+3. CONTENT SECTION
+==================================================
+
+Content Section la phan noi dung chinh cua website.
+
+Vai tro:
+- Hien thi thong tin ma website muon truyen dat.
+- Co the ket hop tieu de, van ban, hinh anh va cac khoi noi dung.
+- Thuong chiem phan lon dien tich cua trang.
+
+Bo cuc bai thuc hanh chia Content Section thanh:
+- Cot van ban mo ta.
+- Cot hinh anh minh hoa.
+
+Tren man hinh lon, hai cot nam canh nhau.
+Tren man hinh nho, hai cot duoc sap xep theo chieu doc.
+
+==================================================
+4. FOOTER
+==================================================
+
+Footer nam o cuoi trang.
+
+Vai tro:
+- Hien thi thong tin ban quyen.
+- Co the chua thong tin lien he.
+- Co the chua cac lien ket phu.
+
+Trong bai thuc hanh, Footer hien thi:
+Copyright 2026 - Website Template Practice.
+
+==================================================
+5. NHAN XET BO CUC
+==================================================
+
+Website duoc chia thanh bon khu vuc chinh:
+
+Header
+    |
+Navigation
+    |
+Content
+    |
+Footer
+
+Cach chia nay giup giao dien ro rang, de quan ly va de mo rong.
+
+Header thu hut su chu y.
+Navigation giup nguoi dung dieu huong.
+Content trinh bay noi dung chinh.
+Footer ket thuc trang va cung cap thong tin ban quyen.
+
+==================================================
+6. ANH CHUP MAN HINH
+==================================================
+
+Yeu cau cua bai:
+Dinh kem anh chup man hinh cua website goc da phan tich.
+
+Website tham khao:
+https://www.apple.com/
+
+Hay mo website tren trinh duyet, chup man hinh va dinh kem khi nop bai.
